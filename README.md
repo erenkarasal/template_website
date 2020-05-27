@@ -1,2 +1,2 @@
 # template_website
-This is template website for html and css.
+These are template websites for html and css
