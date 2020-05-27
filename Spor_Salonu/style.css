@@ -1,0 +1,354 @@
+*{
+    box-sizing: border-box;
+
+
+}
+body{
+margin: 0;
+padding: 0;
+
+
+}
+header{
+
+
+width: 100%;
+height: auto;
+
+
+}
+#banner{
+border: 2px solid black;
+width: 100%;
+height: 700px;
+background-image: url(img/bk.jpg);
+background-size: cover;
+background-position: center;
+
+
+}
+#banner-info{
+   
+    width: 55%;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+
+
+
+} 
+#banner-info h1{
+    color: wheat;
+    text-align: center;
+    font-size: 30px;
+
+
+
+}
+#banner-info p{
+color: white;
+text-align: center;
+font-size: 18px;
+
+
+}
+
+#button{
+
+    
+    width: 180px;
+    height: 50px;
+    margin: auto;
+    background-color: red;
+    padding-top: 13px;
+    padding-left: 10px;
+    margin-top: 50px;
+
+
+
+
+}
+#button a{
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+
+
+}
+.iconBanner{
+    
+    width: 45px;
+    height: 45px;
+    float: right;
+    background-image: url(img/right-arrow.png);
+    background-size: cover;
+    margin-top: -12px;
+    margin-right: 10px;
+    
+}
+#button:hover{
+    background-color:inherit ;
+    cursor: pointer;
+
+
+}
+#button:hover a{
+
+color: red;
+
+
+
+}
+#button:hover .iconBanner{
+    background-image: url(img/right-arrowHover.png);
+
+
+
+
+}
+#info{
+    width: 100%;
+    height: 300px;
+    background-color:#455A64 ;
+    padding-top: 50px;
+
+
+
+}
+#box{
+    
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-left: 60px;
+
+
+
+}
+.icon1{
+
+    background-image: url(img/heart.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin: auto;
+    
+
+
+
+}
+.icon1:hover{
+    background-image: url(img/heartHover.png);
+
+
+
+}
+#box h1{
+    color: white;
+    text-align: center;
+
+
+}
+#box p{
+    color: white;
+    padding:0 10px ;
+    font-size: 16px;
+
+
+
+}
+.icon2{
+
+    background-image: url(img/laugh.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin: auto;
+    
+
+
+
+}
+.icon2:hover{
+    background-image: url(img/laughHover.png);
+
+
+
+}
+.icon3{
+
+    background-image: url(img/thumbs-up.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin: auto;
+    
+
+
+
+}
+.icon3:hover{
+    background-image: url(img/thumbs-upHover.png);
+
+
+
+}
+.icon4{
+
+    background-image: url(img/right-arrowHover.png);
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin: auto;
+    
+
+
+
+}
+.icon4:hover{
+    background-image: url(img/right-arow.png);
+
+
+
+}
+
+main{
+    
+    width: 100%;
+    height: auto;
+
+
+
+}
+#sablonlar{
+    
+    width: 75%;
+    height: 650px;
+    margin:auto;
+    margin-top: 50px;
+
+
+
+}
+#sablonlar h1{
+    text-align: center;
+    font-size: 35px;
+
+
+}
+.sablon{
+    
+    width: 30%;
+    height: 500px;
+    background-color: #29303B;
+    float: left;
+    margin-right: 50px;
+
+}
+.sablon h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 70px;
+   
+
+
+}
+.sablon p{
+
+    color: red;
+    text-align: center;
+    font-size: 25px;
+
+}
+.bilgi{
+
+    border-bottom:1px solid black ;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding-top: 5px;
+
+}
+.bilgi h3{
+
+    color: white;
+    text-align: center;
+
+}
+
+footer{
+    border: 1px solid black;
+width: 100%;
+height: 400px;
+background-color: #2A282E;
+
+
+}
+#hizala{
+   
+    width: 75%;
+    height: 300px;
+    margin: auto;
+    margin-top:50px ;
+
+
+}
+
+#footer-info ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom:25px ;
+
+
+
+
+}
+#footer-info li{
+    color: white;
+    margin-top: 8px;
+
+
+
+}
+#footer-info {
+ float: left;
+ width: 60%;
+ height: auto;
+
+
+}
+#footer-info h1{
+    color: white;
+
+
+}
+#contact{
+float: left;
+width: 40%;
+height: auto;
+
+
+}
+#contact h1{
+    color: white;
+    
+
+
+}
+form input,textarea{
+    border: none;
+    
+    width: 60%;
+    margin-bottom: 10px;
+    height: 35px;
+    background-color: #101A26;
+
+
+
+
+
+}
